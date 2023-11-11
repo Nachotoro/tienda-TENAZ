@@ -1,0 +1,101 @@
+* {
+    margin: 0%;
+    list-style: none;
+    border: none;
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url("font/Montserratt/static/Montserrat-Regular.ttf") format("ttf"),
+         url("font/Montserratt/static/Montserrat-Medium.ttf") format("ttf");
+}
+h1{
+    font-family:'Montserrat';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+header {
+    height: 100px;
+    background: #ffffff;
+    display: flex;
+    color: #000;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-style: Medium;
+    font-weight: 400;
+    line-height: normal;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    padding-left: 50px;
+}
+
+header li {
+    list-style-type: none;
+    margin: 10px;
+    padding-left: 10px;
+    padding-top: 43px;
+    padding-bottom: 44px;
+}
+
+.navbar {
+    display: flex;
+    padding-right: 80px;
+    justify-content: end;
+}
+
+.carousel slide {
+    max-height: 550px;
+}
+
+.tarjetas_venta{
+    display: flex;
+    padding: 20px;
+    border: none;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.card mb-3 {
+    background-color: #b5b5b5;
+    height: 100%;
+    
+}
+.col-md-8 {
+    height: 100%;
+}
+.card {
+    
+    font-family: 'Montserrat';
+    border-radius: 2px;
+    background: #CEE0DC;
+    height:100%;
+    border-color: none;
+}
+
+.card mb-3 {
+    height: 100%;
+}
+
+.btn{
+    border: none;
+    border-color: none;
+    background-color: #4C9F70;
+}
+.btn:hover{
+    background-color: #8BADDA;
+}
+
+footer{
+    padding-left: 50px;
+    justify-content: space-between;
+    font-family: 'Montserrat';
+    border-color: #B1C1DA;
+}
+
+.col mb-3{
+    justify-content: center;
+}
